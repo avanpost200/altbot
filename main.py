@@ -86,7 +86,7 @@ except:
     token, prefix, vm_name, owner_id = load_config(config_file)
     channel_id = None
 
-print(f"{Fore.YELLOW}[*] Created by {Fore.LIGHTCYAN_EX}Avanpost (GitHub: avanpost200)")
+print(f"{Fore.YELLOW}[*] Modded by {Fore.LIGHTCYAN_EX}Avanpost (GitHub: avanpost200)")
 print(f"{Fore.YELLOW}[*] Prefix: {Fore.BLUE}{prefix}")
 print(f"{Fore.YELLOW}[*] VM name: {Fore.BLUE}{vm_name}")
 print(f"{Fore.YELLOW}[*] Owner ID: {Fore.BLUE}{owner_id}")
@@ -494,7 +494,7 @@ async def reload(ctx):
     if ctx.author.id == bot.owner_id:
         logo()
         _, _, vm_name, bot.owner_id, bot.channel_id = load_config(config_file)
-        print(f"{Fore.YELLOW}[*] Created by {Fore.LIGHTCYAN_EX}Avanpost (GitHub: avanpost200)")
+        print(f"{Fore.YELLOW}[*] Modded by {Fore.LIGHTCYAN_EX}Avanpost (GitHub: avanpost200)")
         print(f"{Fore.YELLOW}[*] Prefix: {Fore.BLUE}{prefix}")
         print(f"{Fore.YELLOW}[*] VM name: {Fore.BLUE}{vm_name}")
         print(f"{Fore.YELLOW}[*] Owner ID: {Fore.BLUE}{owner_id}")
