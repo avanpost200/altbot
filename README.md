@@ -1,8 +1,8 @@
 ## AltBot
 A Discord bot for interfacing with a VirtualBox VM.
 ```
-- Created by nicl83.
-- Modded by Avanpost.
+- Created by nicl83
+- Modded by Avanpost
 ```
 
 ## Pre-Setup
