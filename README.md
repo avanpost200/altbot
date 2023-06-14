@@ -1,6 +1,7 @@
 # AltBot
 A Discord bot for interfacing with a VirtualBox VM.
-Created by Avanpost
+Created by nicl83.
+Modded by Avanpost.
 
 ## Pre-Setup
 1. Install Python 3.8. (If you're able to use `discord.py` with your version of Python 3.9, feel free to use 3.9.)
